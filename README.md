@@ -64,3 +64,15 @@
 <img src="https://raw.githubusercontent.com/gik-eng/gik-eng/output/pacman-contribution-graph-dark.svg" width="100%" alt="Pac-Man Contribution Graph">
 
 </div>
+
+<br>
+
+<h2 align="center">📫 Contact</h2>
+
+<div align="center">
+
+<a href="mailto:binarycat8@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Contact%20Me-8FE8FF?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+</a>
+
+</div>
