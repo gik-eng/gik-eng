@@ -1,4 +1,7 @@
 <div align="center">
+  <img src="./assets/header.svg" width="100%" alt="GIK Profile Header">
+</div>
+<div align="center">
 
 # 👋 Hi, I'm GIK
 
