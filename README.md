@@ -54,3 +54,13 @@
 <img src="./profile-3d-contrib/profile-night-view.svg" width="100%" alt="3D Contribution Graph">
 
 </div>
+
+<br>
+
+<h2 align="center">🟡 Pac-Man Contributions</h2>
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/gik-eng/gik-eng/output/pacman-contribution-graph-dark.svg" width="100%" alt="Pac-Man Contribution Graph">
+
+</div>
