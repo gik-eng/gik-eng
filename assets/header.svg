@@ -1,0 +1,326 @@
+<svg width="1280" height="400" viewBox="0 0 1280 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <!-- Background -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050B14"/>
+      <stop offset="0.5" stop-color="#0A1728"/>
+      <stop offset="1" stop-color="#050B14"/>
+    </linearGradient>
+
+    <!-- Ice Blue -->
+    <linearGradient id="ice" x1="420" y1="120" x2="860" y2="290" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E5FAFF"/>
+      <stop offset="0.45" stop-color="#8FE8FF"/>
+      <stop offset="1" stop-color="#42C7F5"/>
+    </linearGradient>
+
+    <!-- Center Glow -->
+    <radialGradient id="glow" cx="640" cy="190" r="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#65DFFF" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#65DFFF" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Glow -->
+    <filter id="glowEffect" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="smallGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Grid -->
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" stroke="#7ADFFF" stroke-opacity="0.05"/>
+    </pattern>
+
+    <!-- Animations -->
+    <style>
+
+      .pulse {
+        animation: pulse 3.5s ease-in-out infinite;
+      }
+
+      .float {
+        animation: float 5s ease-in-out infinite;
+      }
+
+      .dash {
+        animation: dash 8s linear infinite;
+      }
+
+      @keyframes pulse {
+        0%,100% {
+          opacity: 0.55;
+        }
+
+        50% {
+          opacity: 1;
+        }
+      }
+
+      @keyframes float {
+        0%,100% {
+          transform: translateY(0);
+        }
+
+        50% {
+          transform: translateY(-7px);
+        }
+      }
+
+      @keyframes dash {
+        to {
+          stroke-dashoffset: -220;
+        }
+      }
+
+    </style>
+
+  </defs>
+
+
+  <!-- Background -->
+
+  <rect
+    width="1280"
+    height="400"
+    rx="24"
+    fill="url(#bg)"
+  />
+
+  <rect
+    width="1280"
+    height="400"
+    rx="24"
+    fill="url(#grid)"
+  />
+
+  <rect
+    width="1280"
+    height="400"
+    rx="24"
+    fill="url(#glow)"
+  />
+
+
+  <!-- Outer Frame -->
+
+  <rect
+    x="28"
+    y="28"
+    width="1224"
+    height="344"
+    rx="18"
+    stroke="#8FE8FF"
+    stroke-opacity="0.14"
+  />
+
+
+  <!-- Decorative Network -->
+
+  <g opacity="0.6">
+
+    <!-- Left -->
+
+    <path
+      d="M90 95L210 145L275 90L360 125"
+      stroke="#66DFFF"
+      stroke-opacity="0.22"
+    />
+
+    <!-- Right -->
+
+    <path
+      d="M920 120L1010 82L1090 142L1190 100"
+      stroke="#66DFFF"
+      stroke-opacity="0.22"
+    />
+
+    <!-- Bottom Left -->
+
+    <path
+      d="M95 300L180 340L275 290"
+      stroke="#66DFFF"
+      stroke-opacity="0.18"
+    />
+
+    <!-- Bottom Right -->
+
+    <path
+      d="M1000 300L1095 335L1180 285"
+      stroke="#66DFFF"
+      stroke-opacity="0.18"
+    />
+
+  </g>
+
+
+  <!-- Network Nodes -->
+
+  <g fill="#A8F0FF" filter="url(#smallGlow)">
+
+    <circle cx="90" cy="95" r="2.5"/>
+    <circle cx="210" cy="145" r="2.5"/>
+    <circle cx="275" cy="90" r="2.5"/>
+    <circle cx="360" cy="125" r="2.5"/>
+
+    <circle cx="920" cy="120" r="2.5"/>
+    <circle cx="1010" cy="82" r="2.5"/>
+    <circle cx="1090" cy="142" r="2.5"/>
+    <circle cx="1190" cy="100" r="2.5"/>
+
+    <circle cx="95" cy="300" r="2.5"/>
+    <circle cx="180" cy="340" r="2.5"/>
+    <circle cx="275" cy="290" r="2.5"/>
+
+    <circle cx="1000" cy="300" r="2.5"/>
+    <circle cx="1095" cy="335" r="2.5"/>
+    <circle cx="1180" cy="285" r="2.5"/>
+
+  </g>
+
+
+  <!-- Main Title -->
+
+  <g class="float">
+
+    <text
+      x="640"
+      y="172"
+      text-anchor="middle"
+      font-family="Inter, Segoe UI, Arial, sans-serif"
+      font-size="76"
+      font-weight="800"
+      letter-spacing="16"
+      fill="url(#ice)"
+      filter="url(#glowEffect)"
+    >
+      GIK
+    </text>
+
+
+    <!-- Subtitle -->
+
+    <text
+      x="640"
+      y="222"
+      text-anchor="middle"
+      font-family="Inter, Segoe UI, Arial, sans-serif"
+      font-size="21"
+      font-weight="600"
+      letter-spacing="5"
+      fill="#D9F8FF"
+    >
+      DATA ANALYST • PYTHON DEVELOPER
+    </text>
+
+
+    <!-- Technologies -->
+
+    <text
+      x="640"
+      y="264"
+      text-anchor="middle"
+      font-family="Inter, Segoe UI, Arial, sans-serif"
+      font-size="15"
+      font-weight="400"
+      letter-spacing="1.6"
+      fill="#A9C7D4"
+    >
+      Python • Pandas • NumPy • SQL • PostgreSQL • MySQL • Power BI
+    </text>
+
+  </g>
+
+
+  <!-- Student Badge -->
+
+  <g class="pulse">
+
+    <rect
+      x="445"
+      y="292"
+      width="390"
+      height="42"
+      rx="21"
+      fill="#76E4FF"
+      fill-opacity="0.055"
+      stroke="#76E4FF"
+      stroke-opacity="0.25"
+    />
+
+    <text
+      x="640"
+      y="319"
+      text-anchor="middle"
+      font-family="Inter, Segoe UI, Arial, sans-serif"
+      font-size="14"
+      font-weight="500"
+      letter-spacing="1.1"
+      fill="#BCEFFF"
+    >
+      COMPUTER ENGINEERING • FINAL YEAR
+    </text>
+
+  </g>
+
+
+  <!-- Animated Accent -->
+
+  <path
+    class="dash"
+    d="M470 344H810"
+    stroke="#8FE8FF"
+    stroke-opacity="0.65"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-dasharray="3 18"
+  />
+
+
+  <!-- Corner Lights -->
+
+  <g fill="#8FE8FF">
+
+    <circle
+      cx="54"
+      cy="54"
+      r="3"
+      opacity="0.8"
+    />
+
+    <circle
+      cx="1226"
+      cy="54"
+      r="3"
+      opacity="0.8"
+    />
+
+    <circle
+      cx="54"
+      cy="346"
+      r="3"
+      opacity="0.5"
+    />
+
+    <circle
+      cx="1226"
+      cy="346"
+      r="3"
+      opacity="0.5"
+    />
+
+  </g>
+
+</svg>
