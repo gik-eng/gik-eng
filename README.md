@@ -33,18 +33,20 @@ My approach combines technical problem-solving with an understanding of business
 
 <br>
 
+
 <h2 align="center">💼 Services</h2>
 
 <div align="center">
 
-| Service | Description |
+| Service | What I Can Do |
 |:---|:---|
-| **Python Data Analysis** | Exploring datasets, identifying patterns, and extracting actionable insights. |
-| **Data Cleaning & Preparation** | Handling missing values, duplicates, inconsistencies, and transforming raw data into analysis-ready datasets. |
-| **SQL Analysis & Reporting** | Querying relational databases, analyzing business data, and creating structured reports. |
-| **Power BI Dashboards** | Building interactive dashboards and visual reports to make business performance easier to understand. |
+| **Python Data Analysis** | Analyze datasets, identify trends and patterns, and extract actionable business insights using Python. |
+| **Data Cleaning & Preparation** | Clean, validate, transform, and standardize raw datasets by handling missing values, duplicates, and inconsistencies. |
+| **SQL Analysis & Reporting** | Query relational databases, perform data analysis, and create structured reports to answer business questions. |
+| **Power BI Dashboards** | Design interactive dashboards, create data models and DAX measures, and present key business metrics through clear visualizations. |
 
 </div>
+
 
 <br>
 
