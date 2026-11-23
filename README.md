@@ -70,27 +70,36 @@ My approach combines technical problem-solving with an understanding of business
 
 <br>
 
+
 <h2 align="center">🚀 Featured Projects</h2>
 
 ### 1. [DATA_PREPARATION_SYSTEM](https://github.com/gik-eng/DATA_PREPARATION_SYSTEM)
 
-A Python-based data preparation system designed to organize and streamline common data preparation tasks, including cleaning, transformation, validation, and duplicate handling.
+A Python-based system designed to streamline and organize data preparation workflows.
 
-**Focus:** Python • Data Cleaning • Data Transformation • Data Validation
+**Key Areas:**
+- Data Cleaning and Transformation
+- Data Validation
+- Duplicate Detection and Handling
+- Modular Data Preparation Tools
+
+**Technologies:** Python • Pandas • NumPy
+
+---
 
 ### 2. [DATA_ANALYSIS_ROADMAP](https://github.com/gik-eng/DATA_ANALYSIS_ROADMAP)
 
-A practical learning and project repository documenting my work across core Data Analysis topics, including Python, Pandas, NumPy, SQL, and Power BI.
+A hands-on repository documenting practical exercises and projects across core Data Analysis technologies.
 
-**Focus:** Python • Pandas • NumPy • SQL • Power BI
+**Key Areas:**
+- Python and Data Manipulation
+- Pandas and NumPy
+- SQL and Database Analysis
+- Power BI and Data Visualization
 
-### 3. Sales_Invoice — Client Project
+**Technologies:** Python • Pandas • NumPy • SQL • Power BI
 
-A desktop sales and invoice management application developed for a client. The project addresses business workflows involving customer records, invoices, item details, pricing calculations, and Excel exports.
 
-The backend was developed independently, with AI assistance used during frontend development. Client-specific information and confidential data are not included in this public profile.
-
-**Focus:** Python • PostgreSQL • SQLAlchemy • Desktop Application Development
 
 <br>
 
