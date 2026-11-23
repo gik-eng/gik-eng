@@ -54,17 +54,17 @@ My approach combines technical problem-solving with an understanding of business
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,mysql,postgresql,fastapi,git,github" alt="Technical skills">
+<img src="https://skillicons.dev/icons?i=python,mysql,postgresql,git,github,fastapi" alt="Technical Skills">
 
 <br><br>
 
-**Data Analysis:** Python • Pandas • NumPy • SQL
+**Data Analysis:** Python • Pandas • NumPy
 
-**Databases:** PostgreSQL • MySQL
+**Data Visualization & BI:** Power BI
 
-**Business Intelligence:** Power BI
+**Databases & Querying:** SQL • PostgreSQL • MySQL
 
-**Development Tools:** FastAPI • Git • GitHub
+**Development & Tools:** FastAPI • Git • GitHub
 
 </div>
 
