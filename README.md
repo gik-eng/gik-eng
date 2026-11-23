@@ -99,7 +99,24 @@ A hands-on repository documenting practical exercises and projects across core D
 
 **Technologies:** Python • Pandas • NumPy • SQL • Power BI
 
+---
 
+### 3. Sales_Invoice — Client Project
+
+A desktop-based sales and invoice management application developed to address the operational needs of a jewelry business.
+
+**Key Features:**
+- Customer and Sales Management
+- Invoice Creation and Management
+- Product and Item Details
+- Weight, Pricing, Discount, and Cost Calculations
+- Sales History and Excel Export
+
+**Technologies:** Python • PostgreSQL • SQLAlchemy
+
+**Development:** Backend independently developed; AI-assisted frontend development.
+
+**Project Status:** Completed and delivered to the client.
 
 <br>
 
