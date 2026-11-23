@@ -126,9 +126,10 @@ A desktop-based sales and invoice management application developed to address th
 
 **Education:** Final-Year Computer Engineering Student
 
-**Certification:** CS50's Introduction to Programming with Python (CS50P)
-
-**Additional Learning:** edX Courses and Certificates
+**Certifications:**
+- CS50's Introduction to Programming with Python — Harvard / edX
+- Pandas — Kaggle
+- SQL — Kaggle
 
 </div>
 
