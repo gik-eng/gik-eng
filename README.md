@@ -1,8 +1,11 @@
-::: {align="center"}
-`<img src="./assets/header.svg" width="100%" alt="GIK Profile Header">`{=html}
-:::
+\<div align="center"\>
 
-::: {align="center"}
+\<img src="./assets/header.svg" width="100%" alt="GIK Profile Header"\>
+
+\</div\>
+
+\<div align="center"\>
+
 # 👋 Hi, I'm GIK
 
 ### 📊 Data Analyst \| 🐍 Python Developer
@@ -10,18 +13,15 @@
 **Python • Pandas • NumPy • SQL • PostgreSQL • MySQL • Power BI**
 
 *Turning Data into Business Insights.*
-:::
 
-`<br>`{=html}
+\</div\>
 
-```{=html}
-<h2 align="center">
-```
-👨‍💻 About Me
-```{=html}
-</h2>
-```
-::: {align="center"}
+\<br\>
+
+\<h2 align="center"\>👨‍💻 About Me\</h2\>
+
+\<div align="center"\>
+
 I'm a Data Analyst and Python Developer focused on transforming raw data
 into meaningful insights and practical business solutions.
 
@@ -31,18 +31,15 @@ data into reliable analysis, clear reports, and useful visualizations.
 My approach combines technical problem-solving with an understanding of
 business needs --- from preparing data for analysis to communicating
 findings that support better decisions.
-:::
 
-`<br>`{=html}
+\</div\>
 
-```{=html}
-<h2 align="center">
-```
-💼 Services
-```{=html}
-</h2>
-```
-::: {align="center"}
+\<br\>
+
+\<h2 align="center"\>💼 Services\</h2\>
+
+\<div align="center"\>
+
   -----------------------------------------------------------------------
   Service                             Description
   ----------------------------------- -----------------------------------
@@ -63,21 +60,20 @@ findings that support better decisions.
                                       visual reports to make business
                                       performance easier to understand.
   -----------------------------------------------------------------------
-:::
 
-`<br>`{=html}
+\</div\>
 
-```{=html}
-<h2 align="center">
-```
-🛠️ Tech Stack
-```{=html}
-</h2>
-```
-::: {align="center"}
-`<img src="https://skillicons.dev/icons?i=python,mysql,postgresql,fastapi,git,github" alt="Technical skills">`{=html}
+\<br\>
 
-`<br>`{=html}`<br>`{=html}
+\<h2 align="center"\>🛠️ Tech Stack\</h2\>
+
+\<div align="center"\>
+
+\<img
+src="https://skillicons.dev/icons?i=python,mysql,postgresql,fastapi,git,github"
+alt="Technical skills"\>
+
+\<br\>\<br\>
 
 **Data Analysis:** Python • Pandas • NumPy • SQL
 
@@ -86,17 +82,13 @@ findings that support better decisions.
 **Business Intelligence:** Power BI
 
 **Development Tools:** FastAPI • Git • GitHub
-:::
 
-`<br>`{=html}
+\</div\>
 
-```{=html}
-<h2 align="center">
-```
-🚀 Featured Projects
-```{=html}
-</h2>
-```
+\<br\>
+
+\<h2 align="center"\>🚀 Featured Projects\</h2\>
+
 ### 1. [DATA_PREPARATION_SYSTEM](https://github.com/gik-eng/DATA_PREPARATION_SYSTEM)
 
 A Python-based data preparation system designed to organize and
@@ -128,61 +120,52 @@ are not included in this public profile.
 **Focus:** Python • PostgreSQL • SQLAlchemy • Desktop Application
 Development
 
-`<br>`{=html}
+\<br\>
 
-```{=html}
-<h2 align="center">
-```
-🎓 Education & Certifications
-```{=html}
-</h2>
-```
-::: {align="center"}
+\<h2 align="center"\>🎓 Education & Certifications\</h2\>
+
+\<div align="center"\>
+
 **Education:** Final-Year Computer Engineering Student
 
 **Certification:** CS50's Introduction to Programming with Python
 (CS50P)
 
 **Additional Learning:** edX Courses and Certificates
-:::
 
-`<br>`{=html}
+\</div\>
 
-```{=html}
-<h2 align="center">
-```
-📊 My 3D Contributions
-```{=html}
-</h2>
-```
-::: {align="center"}
-`<img src="./profile-3d-contrib/profile-night-view.svg" width="100%" alt="3D Contribution Graph">`{=html}
-:::
+\<br\>
 
-`<br>`{=html}
+\<h2 align="center"\>📊 My 3D Contributions\</h2\>
 
-```{=html}
-<h2 align="center">
-```
-🟡 Pac-Man Contributions
-```{=html}
-</h2>
-```
-::: {align="center"}
-`<img src="https://raw.githubusercontent.com/gik-eng/gik-eng/output/pacman-contribution-graph-dark.svg" width="100%" alt="Pac-Man Contribution Graph">`{=html}
-:::
+\<div align="center"\>
 
-`<br>`{=html}
+\<img src="./profile-3d-contrib/profile-night-view.svg" width="100%"
+alt="3D Contribution Graph"\>
 
-```{=html}
-<h2 align="center">
-```
-📫 Contact
-```{=html}
-</h2>
-```
-::: {align="center"}
-`<a href="mailto:binarycat8@gmail.com">`{=html}
-`<img src="https://img.shields.io/badge/Email-Contact%20Me-8FE8FF?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">`{=html}
-`</a>`{=html}
-:::
+\</div\>
+
+\<br\>
+
+\<h2 align="center"\>🟡 Pac-Man Contributions\</h2\>
+
+\<div align="center"\>
+
+\<img
+src="https://raw.githubusercontent.com/gik-eng/gik-eng/output/pacman-contribution-graph-dark.svg"
+width="100%" alt="Pac-Man Contribution Graph"\>
+
+\</div\>
+
+\<br\>
+
+\<h2 align="center"\>📫 Contact\</h2\>
+
+\<div align="center"\>
+
+\<a href="mailto:binarycat8@gmail.com"\> \<img
+src="https://img.shields.io/badge/Email-Contact%20Me-8FE8FF?style=for-the-badge&logo=gmail&logoColor=white"
+alt="Email"\> \</a\>
+
+\</div\>
